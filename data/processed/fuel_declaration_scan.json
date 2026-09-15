@@ -1,0 +1,9 @@
+{
+  "cidex_root": "../cidex",
+  "families_scanned": 8627,
+  "config_records_scanned": 9794,
+  "distinct_fuel_declarations": 36,
+  "pattern": "renewable|bio-?diesel|\\bB[0-9]{1,3}\\b|hvo|paraffinic|fame|vegetable|hydrotreat|ester",
+  "matching_declarations": [],
+  "n_matching_declarations": 0
+}
