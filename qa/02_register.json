@@ -1,0 +1,13 @@
+{
+  "row_count_register": 10,
+  "row_count_overlap": 24,
+  "duplicate_properties": 0,
+  "rows_missing_citation": 0,
+  "overlap_undefined": 18,
+  "unverified_commercial_values": 0,
+  "checks": {
+    "every_property_unique": true,
+    "every_row_has_mechanism": true,
+    "every_row_has_gap_class": true
+  }
+}

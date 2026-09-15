@@ -1,0 +1,53 @@
+{
+  "cidex_families_read": 8627,
+  "cidex_config_records_read": 9794,
+  "ci_families": 8354,
+  "volumetric_metering_families": 7928,
+  "families_dropped_non_ci": 273,
+  "distinct_fuel_type_descriptors": 29,
+  "top_fuel_descriptors": [
+    [
+      "7-15 ppm Ultra Low Sulfur Diesel",
+      6013
+    ],
+    [
+      "300-500 ppm Low Sulfur Diesel",
+      1335
+    ],
+    [
+      "7-15 ppm ultra low sulfur diesel",
+      367
+    ],
+    [
+      "300-500 ppm Low Sulfur Diesel; 7-15 ppm Ultra Low Sulfur Diesel",
+      305
+    ],
+    [
+      "300-500 ppm Low Sulfur Diesel; Perkins specification for distilate diesel fuel",
+      81
+    ],
+    [
+      "Compressed Natural Gas, Liquefied Natural Gas",
+      62
+    ],
+    [
+      "7-15 ppm Ultra Low Sulfur Diesel; Perkins Specification of Distillate Fuel",
+      23
+    ],
+    [
+      "7-15 ppm Ultra Low Sulfur Diesel; Perkins specification for Distilate Diesel Fuel",
+      20
+    ]
+  ],
+  "distinct_certification_fuel_values": [
+    "100ppm low sulfur diesel",
+    "300-500 ppm Low Sulfur Diesel",
+    "7-15 ppm Ultra Low Sulfur Diesel",
+    "Compressed Natural Gas"
+  ],
+  "checks": {
+    "ci_population_non_empty": true,
+    "every_ci_family_has_model_year": true,
+    "no_renewable_certification_fuel_found": true
+  }
+}

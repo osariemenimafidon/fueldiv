@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this register, please cite it as below."
+title: "FUELDIV: Fuel Divergence Atlas - Specification Divergence Register"
+abstract: >-
+  A property-by-property register of where the diesel certification test fuel
+  envelope (40 CFR 1065.703), the federal in-market fuel requirement (40 CFR
+  1090), and commercial fuel standards fail to overlap, joined to the certified
+  compression-ignition engine population from CIDEX.
+type: dataset
+authors:
+  - family-names: Imafidon
+    given-names: Osariemen
+    orcid: "https://orcid.org/0009-0006-3069-4674"
+    affiliation: "Independent Researcher"
+    email: odimafid@gmail.com
+license: CC-BY-4.0
+repository-code: "https://github.com/osariemenimafidon/fueldiv"
+keywords:
+  - diesel fuel properties
+  - fuel injection control
+  - engine certification
+  - renewable diesel
+  - 40 CFR 1065
+  - heavy-duty engines
+  - nonroad engines
+version: 0.1.0-draft
+date-released: "2026-09-15"

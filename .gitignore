@@ -1,0 +1,9 @@
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+data/processed/*.parquet
+release/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

@@ -1,0 +1,38 @@
+{
+  "generated_by": "scripts/02_register.py",
+  "n_properties": 10,
+  "n_injection_relevant": 9,
+  "gap_class_counts": {
+    "cert_only": 3,
+    "unconstrained": 4,
+    "constrained_both": 3
+  },
+  "n_unconstrained": 4,
+  "n_cert_only": 3,
+  "n_constrained_both": 3,
+  "properties_unconstrained": [
+    "bulk_modulus",
+    "cloud_point",
+    "fame_content",
+    "lubricity_hfrr"
+  ],
+  "properties_cert_only": [
+    "density",
+    "distillation_T90",
+    "kinematic_viscosity_40C"
+  ],
+  "n_properties_with_federal_public_measurement": 0,
+  "cert_density_kg_m3": {
+    "low": 838.9,
+    "high": 864.6,
+    "source_units": "API gravity 32-37 degAPI"
+  },
+  "disjoint_envelopes": [
+    {
+      "property": "density",
+      "standard": "EN 15940"
+    }
+  ],
+  "n_disjoint_envelopes": 1,
+  "n_unverified_commercial_values": 0
+}

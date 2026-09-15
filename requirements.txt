@@ -1,0 +1,3 @@
+# The register and exposure steps use only the Python standard library.
+# matplotlib is required for scripts/08_figures.py only.
+matplotlib>=3.8
