@@ -27,7 +27,7 @@ overlap. It then joins the result to the certified engine population from
 [CIDEX](https://github.com/osariemenimafidon/cidex) so the structural finding
 carries a population count rather than an adjective.
 
-## Principal findings (draft)
+## Principal findings
 
 Of ten injection-relevant fuel properties examined:
 

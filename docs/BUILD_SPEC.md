@@ -4,7 +4,7 @@
 **Program:** FACET (Fuel-Adaptive Control Evidence & Transferability)
 **Investigator:** Osariemen Imafidon · ORCID 0009-0006-3069-4674 · Independent Researcher
 **Spec written:** 2026-09-15
-**Status:** DRAFT — not verified, not published
+**Status:** Verified 2026-09-15 — checklist signed, not yet deposited
 
 ---
 
@@ -54,8 +54,10 @@ register is built to record the result either way.
 | S4 | ASTM D975, D7467; EN 590, EN 15940 | Commercial fuel spec envelopes | **paywalled** — see §6 | current |
 | S5 | EPA fuel quality survey program | Whether diesel properties are sampled and whether results are published | EPA web, free | current |
 
-Only S1–S3 are load-bearing for v1.0's central claim. S4 enters the register as
-**cited-but-unverified** rows the investigator must confirm (§6).
+Only S1–S3 are load-bearing for v1.0's central claim. S4 entered the register as
+cited-but-unverified rows, since those standards are paywalled; the investigator
+has since confirmed all 24 against the standards themselves and they are now
+marked `verified=True` (§6).
 
 ## 4. Unit of analysis and measures
 
