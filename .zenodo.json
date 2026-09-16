@@ -1,0 +1,45 @@
+{
+  "title": "FUELDIV: a specification divergence register for United States compression-ignition certification and in-market diesel fuel",
+  "upload_type": "dataset",
+  "description": "<p>A compression-ignition engine sold in the United States is certified on a test fuel whose properties are fixed by 40 CFR 1065.703, and is then operated for a useful life measured in thousands of hours on fuel that need only satisfy 40 CFR 1090. The two regulations are written for different purposes and neither references the other's property set.</p>\n\n<p>FUELDIV reads both, property by property, and records where they fail to overlap. Of 10 fuel properties selected because a documented mechanism connects each to the injection event or its immediate consequences, 3 are constrained at certification and in the market, 3 are constrained at certification only, and <strong>4 are constrained by neither</strong>: bulk modulus, cloud point, FAME content and lubricity. For <strong>none of the ten</strong> does the federal government publish measurements of in-service values.</p>\n\n<p><strong>Contents.</strong> A divergence register carrying, for each property, its certification envelope, its in-market envelope, a section-level citation for both, a stated physical mechanism and a gap class; an envelope overlap table covering 24 property-standard pairs against ASTM D975, EN 590 and EN 15940; and an exposure table joining the unconstrained properties to 8,354 certified compression-ignition engine families, of which 7,928 (94.9%) meter fuel volumetrically.</p>\n\n<p><strong>The decisive result.</strong> Renewable diesel meeting EN 15940 occupies a density envelope of 765&ndash;800 kg/m&sup3; against the certification fuel's 838.9&ndash;864.6 kg/m&sup3;. The envelopes do not overlap: the computed overlap is exactly zero. The standard's cetane floor also sits above the certification fuel's cetane ceiling, and its aromatic content below the certification fuel's aromatic floor.</p>\n\n<p><strong>What the register does not claim.</strong> It makes no claim that any certified engine emits more in service than at certification; no in-service emissions data are used. It makes no claim that the unconstrained properties vary widely in the actual fuel supply, only that the regulation does not constrain them and the federal government does not measure them. Absence of a limit is recorded as absence and never as an implied bound.</p>\n\n<p>The archive includes the full pipeline, a technical preprint, a verification checklist signed by the author, and a provenance log. Values taken from the three paywalled commercial consensus standards entered the register tagged as unconfirmed and blocked publication until the investigator confirmed each against the standard itself; none remains unconfirmed.</p>",
+  "creators": [
+    {
+      "name": "Imafidon, Osariemen",
+      "orcid": "0009-0006-3069-4674",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "diesel fuel specification",
+    "engine certification",
+    "compression ignition",
+    "fuel injection",
+    "renewable diesel",
+    "40 CFR 1065",
+    "40 CFR 1090",
+    "regulatory gap analysis",
+    "open government data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/osariemenimafidon/fueldiv",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/osariemenimafidon/cidex",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://osariemenimafidon.github.io/facet/",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Part of the FACET research program (Fuel-Adaptive Control Evidence & Transferability). The exposure counts are joined from CIDEX, a separately verified panel of EPA compression-ignition certification records. Built entirely from openly available federal data and purchased consensus standards, self-funded, and published openly."
+}
