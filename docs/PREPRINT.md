@@ -1,6 +1,6 @@
 % What the fuel regulation guarantees an engine designer: a specification divergence register for United States compression-ignition certification
 % Osariemen Imafidon
-% 2026-09-15
+% 2026-09-18
 
 Independent Researcher. ORCID [0009-0006-3069-4674](https://orcid.org/0009-0006-3069-4674).
 Correspondence: odimafid@gmail.com.
@@ -822,7 +822,7 @@ attestation; the attestation, not the script, is what licenses publication.
 
 ## Data availability
 
-All processed data are in the repository under `data/processed/`: the divergence register,
+The register, the pipeline and this manuscript's generator are deposited on Zenodo under the concept DOI 10.5281/zenodo.22833312, which always resolves to the newest version; the version described here is 10.5281/zenodo.22833313. This manuscript is deposited separately at 10.5281/zenodo.22822591. All processed data are in the repository under `data/processed/`: the divergence register,
 the envelope overlap table, the exposure tables and the statistics file. The primary
 regulatory sources are freely readable at eCFR. The three commercial consensus standards
 are the property of their publishing bodies and are not redistributed; the register carries

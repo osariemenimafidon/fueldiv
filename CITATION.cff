@@ -23,5 +23,16 @@ keywords:
   - 40 CFR 1065
   - heavy-duty engines
   - nonroad engines
-version: 0.1.0-draft
-date-released: "2026-09-15"
+version: 1.0.1
+date-released: "2026-09-18"
+doi: "10.5281/zenodo.22833312"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22833312"
+    description: "Concept DOI; always resolves to the newest version."
+  - type: doi
+    value: "10.5281/zenodo.22833313"
+    description: "This version."
+  - type: doi
+    value: "10.5281/zenodo.22822591"
+    description: "The accompanying technical preprint, deposited separately."

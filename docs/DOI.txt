@@ -1,0 +1,6 @@
+# Zenodo identifiers for FUELDIV.
+# concept = always resolves to the newest version; cite this for the work.
+concept: 10.5281/zenodo.22833312
+version_latest: 10.5281/zenodo.22833313
+# The technical preprint is deposited separately from the pipeline and register.
+manuscript_concept: 10.5281/zenodo.22822591

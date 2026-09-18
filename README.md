@@ -8,10 +8,14 @@ Control Evidence & Transferability.
 
 Osariemen Imafidon · ORCID [0009-0006-3069-4674](https://orcid.org/0009-0006-3069-4674) · Independent Researcher
 
-> **Status: verified. Not yet deposited.**
+> **Status: verified and deposited.**
 > The 24 values taken from paywalled consensus standards have been confirmed
 > against the standards themselves, and the verification checklist is signed.
-> No DOI has been minted yet. See `docs/VERIFICATION_CHECKLIST.md`.
+> See `docs/VERIFICATION_CHECKLIST.md`. The register and pipeline are deposited
+> on Zenodo under concept DOI
+> [10.5281/zenodo.22833312](https://doi.org/10.5281/zenodo.22833312); the
+> technical preprint is deposited separately at
+> [10.5281/zenodo.22822591](https://doi.org/10.5281/zenodo.22822591).
 
 ---
 
@@ -140,5 +144,14 @@ copyright.
 
 ## Citation
 
-See `CITATION.cff`. A DOI will be minted on first Zenodo deposit, which will not
-happen before the verification gate is passed.
+Cite the register by its **concept DOI**, which always resolves to the newest
+version:
+
+> Imafidon, O. (2026). *FUELDIV: A specification divergence register for United
+> States compression-ignition certification and in-market diesel fuel*
+> (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22833312
+
+This version is `10.5281/zenodo.22833313`. The technical preprint is a separate
+object with its own DOI, `10.5281/zenodo.22822591`, and is the right citation if
+you are citing the argument rather than the data. See `CITATION.cff` for the
+machine-readable form.

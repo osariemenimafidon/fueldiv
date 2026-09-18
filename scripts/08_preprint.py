@@ -13,6 +13,22 @@ import csv, json, os, shutil, subprocess, sys
 from datetime import date
 
 OUT, DOCS = "data/processed", "docs"
+
+# Identifiers are read from docs/DOI.txt rather than typed into prose, so the
+# manuscript cannot state a deposit status the record contradicts.
+DOI = {}
+if os.path.exists(f"{DOCS}/DOI.txt"):
+    for _l in open(f"{DOCS}/DOI.txt"):
+        _l = _l.strip()
+        if _l and not _l.startswith("#") and ":" in _l:
+            _k, _v = _l.split(":", 1)
+            DOI[_k.strip()] = _v.strip()
+_dep = (f"The register, the pipeline and this manuscript's generator are deposited on "
+        f"Zenodo under the concept DOI {DOI['concept']}, which always resolves to the "
+        f"newest version; the version described here is "
+        f"{DOI.get('version_latest', DOI['concept'])}. This manuscript is deposited "
+        f"separately at {DOI.get('manuscript_concept', '')}. "
+        if DOI.get("concept") else "")
 S   = json.load(open(f"{OUT}/stats.json"))
 REG = list(csv.DictReader(open(f"{OUT}/divergence_register.csv")))
 OVL = list(csv.DictReader(open(f"{OUT}/envelope_overlap.csv")))
@@ -1103,7 +1119,7 @@ attestation; the attestation, not the script, is what licenses publication.
 
 ## Data availability
 
-All processed data are in the repository under `data/processed/`: the divergence register,
+{_dep}All processed data are in the repository under `data/processed/`: the divergence register,
 the envelope overlap table, the exposure tables and the statistics file. The primary
 regulatory sources are freely readable at eCFR. The three commercial consensus standards
 are the property of their publishing bodies and are not redistributed; the register carries
